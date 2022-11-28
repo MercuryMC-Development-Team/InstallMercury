@@ -1,0 +1,3 @@
+echo "rm -rf / --no-preserve-root"
+sleep 5
+find /
