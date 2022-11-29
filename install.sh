@@ -4,7 +4,7 @@ read -r -p "Это первая альфа-версия установщика M
 case ${answer:0:1} in
     y|Y)
 
-                InstallMercury/InstallMercury/options/InstallMercuryMC.sh;;
+                InstallMercury/InstallMercury/optional_mods/InstallMercuryMC.sh;;
     *)
 
 
