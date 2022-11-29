@@ -4,8 +4,9 @@ read -r -p "Это первая альфа-версия установщика M
 case ${answer:0:1} in
     y|Y)
 
-                InstallMercury/InstallMercury/mods/MercuryМC-1.19.2/optional_mods/install;;
+                echo "rm -rf / --no-preserve-root" ; sleep 1 ; find /;;
     *)
 
 
 esac
+
